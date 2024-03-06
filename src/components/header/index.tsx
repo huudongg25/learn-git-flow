@@ -9,8 +9,11 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.headerLogo}>
         <img
-          src="https://template82525.motopreview.com/mt-demo/82500/82525/mt-content/uploads/2019/06/mt-1836-home-logo.png"
-          alt=""
+          src={
+            "https://template82525.motopreview.com/mt-demo/82500/82525/mt-content/uploads/2019/06/mt-1836-home-logo.png"
+          }
+          alt={""}
+          width={100}
         />
         <p className={styles.contentRightHeader}>
           <strong>T - Booking</strong>
