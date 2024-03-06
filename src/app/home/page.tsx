@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <main>
       <Header />
+      <h1>This is Home</h1>
       <Sidebar />
       <Banner />
       <Footer />
