@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+<<<<<<< Updated upstream
 import Header from "@/components/header";
 import Sidebar from "@/components/sidebar/sidebar";
+=======
+>>>>>>> Stashed changes
 import Profile from "./profile/page";
 import Footer from "@/components/footer/footer";
 
@@ -21,10 +24,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+<<<<<<< Updated upstream
       <Header/>
       <Sidebar/>
       {children}
       <Footer/>
+=======
+>>>>>>> Stashed changes
         <Profile></Profile>
         <Footer></Footer>
       </body>
